@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89966db1-11ec-4575-9d4e-16383912e4f6">
+  <producedTypes>
+    <refType typeId="6e091628-5b67-4e48-b94e-9b068d78cfe2" valueTypeId="538347ce-3a56-4071-866e-d06a1b14a3c9"/>
+    <listType typeId="84a24d77-542b-46bc-b210-c1c6e1c39a45" valueTypeId="7b805e8b-dcb3-4ea6-b6cd-24ec75b2da63"/>
+    <managerType typeId="c1d2e82a-957f-4a0b-8472-147c9337c187" valueTypeId="deb97cfe-7c8a-4595-85f0-cc61c486adf9"/>
+  </producedTypes>
+  <name>ТипыИнструментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы инструментов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a37cd50a-4373-425f-bc1c-445194046189">
+    <name>Акция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f573878-70a1-49c3-a6f5-c53c3bdf99a6">
+    <name>Облигация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65dfcaab-e953-41f1-bdbf-e94cdda20c56">
+    <name>ETF</name>
+    <synonym>
+      <key>ru</key>
+      <value>ETF</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c34c398-3ab4-46de-a099-d335e7fdf29b">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

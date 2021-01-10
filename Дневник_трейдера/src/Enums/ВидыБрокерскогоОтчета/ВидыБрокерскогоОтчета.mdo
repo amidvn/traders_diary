@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="813bb6e5-e8b4-4616-903f-2b05f518e0be">
+  <producedTypes>
+    <refType typeId="82032c08-a7ed-4813-bfa2-bc90d1d8b8fd" valueTypeId="4ea5ecc8-c40b-4e28-8180-cadf43a66020"/>
+    <listType typeId="fb2fd6eb-cf6f-4ea9-b50d-2c3186005d7e" valueTypeId="62c042a2-82c0-4516-9de3-42cd64f77cf1"/>
+    <managerType typeId="2064e903-9d9a-4ae5-8e2a-b87e7391b141" valueTypeId="4f8ae68a-26a5-45a3-be47-7aea226a1a19"/>
+  </producedTypes>
+  <name>ВидыБрокерскогоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды брокерского отчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5871a829-7268-43bd-8a19-7418868ce1e9">
+    <name>ТинькоффPantini</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тинькофф (pantini)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

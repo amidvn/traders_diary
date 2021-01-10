@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7ee8866-eca0-436d-b6a8-acbaa424f43a">
+  <producedTypes>
+    <objectType typeId="01047fbd-6219-429b-af0b-59fd52d6d063" valueTypeId="e5d690d1-22db-47d4-a1ee-75ccac6b49ae"/>
+    <managerType typeId="3b5e7eb6-872d-491b-9368-6d9fb51e13d4" valueTypeId="a313dc8a-73eb-4e8e-bf08-f0d3eb72e103"/>
+  </producedTypes>
+  <name>ОстаткиЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОстаткиЦенныхБумаг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="d7ebf1dd-c783-4cf4-8f16-3fc6d2f2d40f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

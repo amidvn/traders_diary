@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07a666ca-5408-4128-b978-a25f10c20194">
+  <producedTypes>
+    <objectType typeId="9153e58b-a4e9-40a8-9585-556cf7b42dfd" valueTypeId="6900b551-e5e2-47f5-b8d6-5d949cf65b8b"/>
+    <refType typeId="5add9d25-b5c1-42f5-bd7c-c61a531eeba0" valueTypeId="5557a007-8e4f-4614-895e-671c82e9ff6c"/>
+    <selectionType typeId="198852bb-ccc6-4094-aeb2-deac48f0e38f" valueTypeId="fcca855c-3a40-4834-849f-3583bc490aad"/>
+    <listType typeId="04278ac7-6b8d-45a5-868b-0bbdb14a3336" valueTypeId="d60a2e78-598b-46a7-978f-bc03eb0d81ad"/>
+    <managerType typeId="8fef2151-508f-48c8-bada-62d337f354d7" valueTypeId="fd2fc5ec-f37c-4218-9fea-a1d01881e0f7"/>
+  </producedTypes>
+  <name>БрокерскиеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брокерские счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БрокерскиеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БрокерскиеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

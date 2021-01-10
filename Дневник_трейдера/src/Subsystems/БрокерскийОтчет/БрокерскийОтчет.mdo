@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f62cdfb7-26a3-48e6-8afa-6f0b5d399560">
+  <name>БрокерскийОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брокерский отчет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЦенныеБумаги</content>
+  <content>Enum.ТипыИнструментов</content>
+  <content>Document.ВнутридневныеДанныеБрокерскогоОтчета</content>
+  <content>Catalog.БрокерскиеСчета</content>
+  <content>Document.СделкиЗаДень</content>
+  <content>Enum.ТипыСделок</content>
+  <content>AccumulationRegister.ВнутридневныеСделки</content>
+  <content>AccumulationRegister.ОстаткиЦенныхБумаг</content>
+  <content>DataProcessor.ЗагрузкаБрокерскогоОтчета</content>
+  <content>Enum.ВидыБрокерскогоОтчета</content>
+  <content>Report.ВнутридневныеДанные</content>
+  <content>Catalog.Валюты</content>
+  <content>Report.ОстаткиЦенныхБумаг</content>
+</mdclass:Subsystem>

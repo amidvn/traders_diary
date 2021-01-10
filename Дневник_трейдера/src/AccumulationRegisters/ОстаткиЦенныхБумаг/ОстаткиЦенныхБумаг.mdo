@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30fa0ea9-1f8e-4d1c-9d23-c903aaf9ae28">
+  <producedTypes>
+    <selectionType typeId="cfd4ed58-1bb7-490a-a378-ff8a3294240e" valueTypeId="f0166298-7b7e-47ce-96c9-13c5830ad054"/>
+    <listType typeId="f75d1b47-0851-4435-a309-d7f7f73a5ecf" valueTypeId="d20efa56-8445-4e74-805c-45987038480e"/>
+    <managerType typeId="1c245fd0-caa0-4c64-920e-a96591eac2e3" valueTypeId="9a86597e-5b7e-43aa-ae96-aef364a8b7f6"/>
+    <recordSetType typeId="3a379acc-3959-4ede-b669-e64b6576aa3b" valueTypeId="4fd9d880-50aa-4b23-808a-4dc08dc013ca"/>
+    <recordKeyType typeId="4f313387-ed80-429f-b9f3-50842db0c606" valueTypeId="e00c097b-7aef-48d1-83f5-f0fe2b4be7c2"/>
+    <recordType typeId="cbe13169-a884-4e63-a5cd-2672876c2124" valueTypeId="9a23f0af-1b5e-4a92-a2f9-9df9868c001a"/>
+  </producedTypes>
+  <name>ОстаткиЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="be47d58f-6776-4266-8698-1e14ae81b9cf">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="eb015208-512e-4d53-b4cc-8f5cca90a259">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a5d3375a-60e0-4cb0-9199-06975f2a3604">
+    <name>БрокерскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокерский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БрокерскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1b6c1f45-49d5-4738-b5d8-dfa05a4085dc">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7fe6a913-d8fe-46ac-84c5-6ea104f50c8e">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d063ae2d-1a41-483b-96da-0947f48bca70">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="645752b8-3211-42a1-b35e-8d2ccb73bc2c">
+    <name>ДатаПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата покупки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

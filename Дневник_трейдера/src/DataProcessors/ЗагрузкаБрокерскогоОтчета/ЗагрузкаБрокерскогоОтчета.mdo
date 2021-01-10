@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be89c3ef-5a45-44cc-9611-e0b5028a2fd6">
+  <producedTypes>
+    <objectType typeId="3e01ed01-99f4-4042-8cc8-7f40106b41c0" valueTypeId="2ad0f6f6-29b0-42f2-aba4-a708c713d651"/>
+    <managerType typeId="bf7a493a-9e3c-41cb-bc64-67a940ad9c90" valueTypeId="86f5aa23-196c-47e7-b5e6-d8829b6cf772"/>
+  </producedTypes>
+  <name>ЗагрузкаБрокерскогоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка брокерского отчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаБрокерскогоОтчета.Form.Форма</defaultForm>
+  <forms uuid="768dc18f-7385-4d68-8445-4ee240d66b1d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
