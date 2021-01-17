@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="384ae77d-7a50-4c09-99b3-6b7f19b6cb88">
+  <producedTypes>
+    <objectType typeId="f2af2ea0-bf4b-4cce-b7d4-0535e218858c" valueTypeId="e2108512-8075-4a12-a8ba-4be3a3ae230d"/>
+    <refType typeId="58ac713a-2a96-476c-a847-d747c09cee98" valueTypeId="f73cf2f7-3049-4785-99b6-cee510c24657"/>
+    <selectionType typeId="79afe1e6-0c3c-4674-969f-978d0ddfed36" valueTypeId="97f3d4e7-6b42-4abf-baeb-a0c0fc14ac1a"/>
+    <listType typeId="2f32976d-dbd9-4dd9-95dc-6c59fb9a82bb" valueTypeId="e6d70442-d2f3-416c-b866-5c95ef2cb99a"/>
+    <managerType typeId="c9e165c0-81d9-4313-95cd-b9e2a2924acb" valueTypeId="8efb7d0b-9134-4d43-ad42-62dc5c94f7bc"/>
+  </producedTypes>
+  <name>ДвижениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДвижениеДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиДенежныхСредств</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="adda6ec2-6fd7-451d-90b2-e159fbb2ee5e">
+    <name>БрокерскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокерский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БрокерскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="01fc5c71-af85-497d-9d60-7dfde6cef370">
+    <producedTypes>
+      <objectType typeId="cf71069f-ba14-4b6a-9593-adc291cd0b14" valueTypeId="663d8112-1978-4763-9f13-031630a2cf81"/>
+      <rowType typeId="a22878b7-cc44-49c2-a888-d5dfb06eb284" valueTypeId="5e31fd4e-8575-4871-b178-0a25ce119c01"/>
+    </producedTypes>
+    <name>ИзмененияОстатковДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения остатков денежных средств</value>
+    </synonym>
+    <attributes uuid="7883dac1-e463-4140-bdce-09fa553fcce0">
+      <name>ДатаВремяСделки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата время сделки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5c14b2f-85c5-477f-8f81-ae3036b4e198">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82ae9f42-b102-4594-bb32-41a8c57e614e">
+      <name>ПричинаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина изменения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПричиныИзмененияОстатковДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7305236d-421b-4c61-b0d2-e460ac589972">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3a7498d-f461-4a90-97fb-50a4752ebb71">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

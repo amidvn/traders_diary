@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff7e4ac-ee51-4a82-877e-4da1707531a3">
+  <producedTypes>
+    <refType typeId="d9cacbb5-9acc-4dd5-98ff-b4c4d1bb8a3a" valueTypeId="e8b78d1b-397d-4777-a5eb-865b90f065d3"/>
+    <listType typeId="1d948c6d-6733-460d-b971-5c895750173a" valueTypeId="53732c48-0908-4703-85a0-f631b27d0ca5"/>
+    <managerType typeId="ce1dda90-169b-4e3b-b34d-bb70c42623cf" valueTypeId="585c7c11-167d-47af-b3aa-25b158e06390"/>
+  </producedTypes>
+  <name>ПричиныИзмененияОстатковДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины изменения остатков денежных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0441e7c9-4abf-4bb0-bcf6-24c5f1ac9a3f">
+    <name>ВыводСБрокерскогоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод с брокерского счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e0a71f0-127e-4642-89d4-1d774f953bde">
+    <name>ВыплатаКупонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата купонов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="832675f6-16db-4955-98d6-0211f6b68894">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b58f9fde-d48d-44c6-be6e-5aaf30aeb901">
+    <name>ОбменВалютыПоступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен валюты поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="327036da-6dad-4467-94f6-341fe24b6060">
+    <name>ОбменВалютыСписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен валюты списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8744f1bc-f830-4292-801a-b2e9a4b24c71">
+    <name>ПогашениеОблигации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погашение облигации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7aff1058-05e6-4ab9-8d13-95df4895e0ca">
+    <name>ПокупкаЦеннойБумаги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка ценной бумаги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b4d514e-9daf-434c-a1b1-21cecdd3bc49">
+    <name>ПополнениеБрокерскогоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнение брокерского счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fc0aaa8-2f3a-456d-9e26-35dda5af14bb">
+    <name>ПродажаЦеннойБумаги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа ценной бумаги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54d29b23-41de-4946-b205-cc626ef56d26">
+    <name>УдержаниеНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание налога</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

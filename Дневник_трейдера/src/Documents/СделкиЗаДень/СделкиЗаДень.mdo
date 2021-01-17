@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ОстаткиЦенныхБумаг</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиДенежныхСредств</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="69d43ac5-e9c6-4bef-955c-2881c519fdd6">

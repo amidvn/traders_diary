@@ -16,8 +16,12 @@
   <content>AccumulationRegister.ВнутридневныеСделки</content>
   <content>AccumulationRegister.ОстаткиЦенныхБумаг</content>
   <content>DataProcessor.ЗагрузкаБрокерскогоОтчета</content>
-  <content>Enum.ВидыБрокерскогоОтчета</content>
+  <content>Enum.СпособыЗагрузкиБрокерскогоОтчета</content>
   <content>Report.ВнутридневныеДанные</content>
   <content>Catalog.Валюты</content>
   <content>Report.ОстаткиЦенныхБумаг</content>
+  <content>Document.ДвижениеДенежныхСредств</content>
+  <content>AccumulationRegister.ОстаткиДенежныхСредств</content>
+  <content>Enum.ПричиныИзмененияОстатковДенежныхСредств</content>
+  <content>Report.ОстаткиДенежныхСредств</content>
 </mdclass:Subsystem>

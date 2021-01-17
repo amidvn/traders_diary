@@ -130,6 +130,45 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1647b2e0-0428-4039-8e0c-ece7ffc837ef">
+    <name>КодЦеннойБумаги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ценной бумаги (ISIN)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="138a7473-cd65-4c13-8dee-df4126b548ee">
+    <name>ГлобальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глобальный идентификатор (FIGI)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="bcc95830-313b-430e-9207-a7290fa8ffb1">
     <name>ТипИнструмента</name>
     <synonym>

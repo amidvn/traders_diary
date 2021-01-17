@@ -5,18 +5,32 @@
     <listType typeId="fb2fd6eb-cf6f-4ea9-b50d-2c3186005d7e" valueTypeId="62c042a2-82c0-4516-9de3-42cd64f77cf1"/>
     <managerType typeId="2064e903-9d9a-4ae5-8e2a-b87e7391b141" valueTypeId="4f8ae68a-26a5-45a3-be47-7aea226a1a19"/>
   </producedTypes>
-  <name>ВидыБрокерскогоОтчета</name>
+  <name>СпособыЗагрузкиБрокерскогоОтчета</name>
   <synonym>
     <key>ru</key>
-    <value>Виды брокерского отчета</value>
+    <value>Способы загрузки брокерского отчета</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="29529873-747d-44d7-91ad-fc94317d2b0b">
+    <name>ВТБExcel</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВТБ (Excel)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18094be3-4664-4968-929e-82a44615a551">
+    <name>ТинькоффOpenAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тинькофф (Open API)</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="5871a829-7268-43bd-8a19-7418868ce1e9">
     <name>ТинькоффPantini</name>
     <synonym>
       <key>ru</key>
-      <value>Тинькофф (pantini)</value>
+      <value>Тинькофф (Excel, pantini)</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

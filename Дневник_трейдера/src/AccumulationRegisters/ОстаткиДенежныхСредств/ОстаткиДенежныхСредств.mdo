@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5de15b39-2554-4013-98db-fc848425b26a">
+  <producedTypes>
+    <selectionType typeId="6d7a8aa8-8dd3-44eb-9ca9-804df64bfe36" valueTypeId="54b976d8-ddce-44da-8add-b6e3531a569a"/>
+    <listType typeId="a54f84f0-ebdd-4115-b3ea-724eb29831a6" valueTypeId="d12cb5bb-efbd-493c-a078-c9f0a4e3d97b"/>
+    <managerType typeId="8356d476-b342-48ff-b7b0-17255d851ec6" valueTypeId="1d3d6265-0431-468a-93a9-0c3583a9c523"/>
+    <recordSetType typeId="9a85f2f6-8dee-400a-bcb6-46d53258d816" valueTypeId="628bec9d-accd-47d0-b106-3bf01721ee07"/>
+    <recordKeyType typeId="2bd6ba39-2975-4afd-a618-3b46f0aa303b" valueTypeId="31f29bfe-48d8-4184-8d94-db9474d2e0a3"/>
+    <recordType typeId="924caa7d-25a8-4ecf-a82a-2c291ed465b0" valueTypeId="8fe9797d-8baf-4ba5-b3ac-f3da6001a72f"/>
+  </producedTypes>
+  <name>ОстаткиДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9a46ebfc-69f9-4871-a9f0-f049779b9778">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="46fb2c98-5181-4c6a-b04d-d4643a057229">
+    <name>ПричинаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПричиныИзмененияОстатковДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="d7405bda-d25a-4f9d-9cbb-1327bf40e595">
+    <name>БрокерскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокерский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БрокерскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="56bf923d-156a-4e33-8808-343b43b46e43">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

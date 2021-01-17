@@ -342,6 +342,7 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <commonModules>CommonModule.НапоминанияПользователя</commonModules>
   <commonModules>CommonModule.НапоминанияПользователяВызовСервера</commonModules>
   <commonModules>CommonModule.НапоминанияПользователяГлобальный</commonModules>
@@ -553,11 +554,13 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ЦенныеБумаги</catalogs>
   <documents>Document.ВнутридневныеДанныеБрокерскогоОтчета</documents>
+  <documents>Document.ДвижениеДенежныхСредств</documents>
   <documents>Document.СделкиЗаДень</documents>
-  <enums>Enum.ВидыБрокерскогоОтчета</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
+  <enums>Enum.ПричиныИзмененияОстатковДенежныхСредств</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
+  <enums>Enum.СпособыЗагрузкиБрокерскогоОтчета</enums>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
   <enums>Enum.СпособыУстановкиВремениНапоминания</enums>
   <enums>Enum.СпособыУстановкиКурсаВалюты</enums>
@@ -569,6 +572,7 @@
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <reports>Report.ВнутридневныеДанные</reports>
+  <reports>Report.ОстаткиДенежныхСредств</reports>
   <reports>Report.ОстаткиЦенныхБумаг</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
@@ -601,4 +605,5 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВнутридневныеСделки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиЦенныхБумаг</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиДенежныхСредств</accumulationRegisters>
 </mdclass:Configuration>
