@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="2b45a00d-40b0-468a-bb76-c1b1bd64fa8e">
+    <name>ВводТокенаOpenApiТинькофф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод токена open api тинькофф</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
