@@ -557,6 +557,7 @@
   <documents>Document.ДвижениеДенежныхСредств</documents>
   <documents>Document.СделкиЗаДень</documents>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
+  <enums>Enum.НаправленияСделки</enums>
   <enums>Enum.ПричиныИзмененияОстатковДенежныхСредств</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>

@@ -82,6 +82,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="ab7787df-b461-457c-9e79-18e9f0e7bb9c">
+      <name>НаправлениеСделки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Направление сделки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.НаправленияСделки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="03072386-9e82-4f7b-9579-92f934253c81">
       <name>СуммаПокупки</name>
       <synonym>

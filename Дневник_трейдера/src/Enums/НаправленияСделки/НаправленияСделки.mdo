@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a483c3e7-8fc6-4f0a-ba6a-d41d3a8a0bdf">
+  <producedTypes>
+    <refType typeId="eb5db617-cba9-41e1-a5e1-43ea71612b8a" valueTypeId="bedfb1fe-619c-4491-8353-e3b4a02914a6"/>
+    <listType typeId="300a7662-4b17-48b1-9f49-39567b286b09" valueTypeId="193e3a1d-8862-4a57-9b72-787385337427"/>
+    <managerType typeId="6ce7ba7a-250a-4d19-a2a7-b3920614ff31" valueTypeId="2051ef71-fa79-47a9-b37f-d53e2e4175b0"/>
+  </producedTypes>
+  <name>НаправленияСделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления сделки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1150b0e6-f4e0-4e09-a7e1-2e20e42cdf47">
+    <name>Лонг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лонг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff9da609-0936-41b3-b587-5415bff5f613">
+    <name>Шорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

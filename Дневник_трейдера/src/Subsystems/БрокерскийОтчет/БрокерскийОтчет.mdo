@@ -24,4 +24,5 @@
   <content>AccumulationRegister.ОстаткиДенежныхСредств</content>
   <content>Enum.ПричиныИзмененияОстатковДенежныхСредств</content>
   <content>Report.ОстаткиДенежныхСредств</content>
+  <content>Enum.НаправленияСделки</content>
 </mdclass:Subsystem>
