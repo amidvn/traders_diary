@@ -1,0 +1,3 @@
+<Items Description="СписокЦенныхБумаг" Columns="figi,issuer,ticker,isin,showName">
+	<Item figi="008" issuer="ALL" ticker="Лек" isin="Албания" showName="ложь"/>
+</Items>

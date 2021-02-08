@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7911796-a3b2-4874-8b76-ca3f18036da0">
+  <producedTypes>
+    <objectType typeId="7fa89463-2740-4f3c-b97f-bb02d48886be" valueTypeId="5ee33854-219d-4f05-9412-fadf6bc387ef"/>
+    <managerType typeId="2ec0d6c1-2de8-40c0-b14f-9cdfd919d214" valueTypeId="817d9122-6264-40d2-b4f7-c9bcb180489e"/>
+  </producedTypes>
+  <name>ЗагрузкаЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="58998e12-b3ae-4186-b647-af07ad2dd69b">
+    <name>ПодборЦенныхБумаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор ценных бумаг</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a9c5a6c8-6ff6-4f25-a698-6d5d6178fa1a">
+    <name>СписокЦенныхБумаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ценных бумаг</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
