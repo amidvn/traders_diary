@@ -127,4 +127,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="18e85330-c6f3-479c-9ab0-c5d76f53e13d">
+    <name>НаправлениеСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление сделки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияСделки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>
